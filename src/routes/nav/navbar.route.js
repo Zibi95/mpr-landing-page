@@ -1,3 +1,5 @@
+import { Outlet } from 'react-router-dom';
+
 import logo from '../../assets/logo.png';
 import Background from '../../components/Background.component';
 
@@ -9,11 +11,12 @@ const Navbar = () => {
         <div>
           <img src={logo} alt="logo" />
         </div>
-        <div className="text-white font-semibold text-2xl flex gap-7 ">
+        <div className="text-white font-semibold text-lg flex gap-7 ">
           <span className="cursor-pointer hover:underline">DOWNLOAD APP</span>
           <span className="cursor-pointer hover:underline">CONTACT US</span>
         </div>
       </nav>
+      <Outlet />
     </>
   );
 };
