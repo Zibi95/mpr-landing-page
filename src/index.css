@@ -7,3 +7,31 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+.facebook:hover {
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.instagram:hover {
+  cursor: pointer;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  border-radius: 10px;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+  cursor: pointer;
+}
+.tikTok:hover {
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 0 #fe2d52) contrast(150%) brightness(110%)
+    drop-shadow(-5px -5px 0 #24f6f0) contrast(150%) brightness(110%);
+}
