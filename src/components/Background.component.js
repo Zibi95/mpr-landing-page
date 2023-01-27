@@ -96,7 +96,7 @@ const Background = () => {
 
         detectRetina: true,
         interactivity: {
-          detectsOn: 'canvas',
+          detectsOn: 'window',
           events: {
             onHover: {
               enable: true,

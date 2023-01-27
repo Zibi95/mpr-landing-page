@@ -6,7 +6,6 @@ import Background from '../../components/Background.component';
 const Navbar = () => {
   return (
     <>
-      <Background />
       <nav className="flex items-center justify-between m-8">
         <div>
           <img src={logo} alt="logo" />
@@ -16,6 +15,7 @@ const Navbar = () => {
           <span className="cursor-pointer hover:underline">CONTACT US</span>
         </div>
       </nav>
+      <Background />
       <Outlet />
     </>
   );

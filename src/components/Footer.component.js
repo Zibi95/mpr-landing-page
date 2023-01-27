@@ -12,25 +12,25 @@ const Footer = ({ position }) => {
       <FontAwesomeIcon
         className="facebook"
         icon={faFacebook}
-        size="3x"
+        size="2x"
         color="white"
       />
       <FontAwesomeIcon
         className="instagram"
         icon={faInstagram}
-        size="3x"
+        size="2x"
         color="white"
       />
       <FontAwesomeIcon
         className="linkedin"
         icon={faLinkedin}
-        size="3x"
+        size="2x"
         color="white"
       />
       <FontAwesomeIcon
         className="tikTok"
         icon={faTiktok}
-        size="3x"
+        size="2x"
         color="white"
       />
     </footer>

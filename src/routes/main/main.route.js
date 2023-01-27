@@ -1,19 +1,17 @@
-import PageOne from '../../components/main-page-1/PageOne.component';
-import planeta from '../../assets/planetka.png';
-import robot from '../../assets/robot.png';
+import PageOne from '../../components/main-route-components/PageOne.component';
+import page1 from '../../assets/page1.png';
 
 const Main = () => {
   return (
     <>
-      <div className=" -z-[1] absolute bottom-0 left-1/2 w-[75%] -translate-x-1/2  ">
-        <img className="w-full" src={planeta} alt="planeta" />
+      <PageOne />
+      <div>
         <img
-          alt="robot"
-          className="absolute bottom-[50%] left-1/2 -translate-x-1/2 "
-          src={robot}
+          className=" scale-125 md:w-[65%] md:scale-100 transition-all absolute bottom-0 -z-10 left-[50%] -translate-x-[50%]"
+          src={page1}
+          alt="planeta"
         />
       </div>
-      <PageOne />
     </>
   );
 };
