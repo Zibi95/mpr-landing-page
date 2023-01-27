@@ -1,20 +1,19 @@
 import leftArrow from '../../assets/left.png';
-import rightArrow from '../../assets/right.png';
-
 import telephone from '../../assets/page2-telephone.png';
 
-const PageTwo = () => {
+const PageThree = () => {
   return (
     <>
       <main className="flex justify-around mt-24 flex-wrap">
         <article className="flex flex-col gap-5 w-[40%] flex-shrink-0">
           <h2 className="text-white text-2xl lg:text-4xl font-bold">
-            Co potrafię?
+            Co oferuję w zamian?
           </h2>
           <p className="text-white lg:text-2xl leading-relaxed ">
-            "Mój przyjaciel robot" to aplikacja, która zachęci Cię do
-            przeznaczenia wolnego czasu na rozwój nowych postanowień lub
-            własnych zainteresowań.
+            Dzięki działaniom, które będziesz podejmował w aplikacji nasz
+            przyjaciel robot przyznaje punkty, które możesz wymienić w naszym
+            wewnętrznym sklepie, a co najważniejsze satysfakcję z pracy jaką
+            włożysz, aby się rozwijać.
           </p>
         </article>
         <article className="w-[25%] flex-shrink-0">
@@ -22,16 +21,13 @@ const PageTwo = () => {
         </article>
       </main>
 
-      <div className=" flex items-center justify-center w-full gap-[50%]   absolute  bottom-[15%]">
-        <button className="hover:-translate-x-7 transition-transform ">
+      <div className=" right-[75%] absolute bottom-[15%]">
+        <button className="hover:-translate-x-7 transition-transform">
           <img src={leftArrow} alt="left arrow" />
-        </button>
-        <button className="hover:translate-x-7 transition-transform">
-          <img src={rightArrow} alt="left arrow" />
         </button>
       </div>
     </>
   );
 };
 
-export default PageTwo;
+export default PageThree;
