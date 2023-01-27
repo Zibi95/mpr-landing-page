@@ -39,7 +39,7 @@ const DownloadPage = () => {
           <img src={rakieta} alt="rakieta robota" />
         </div>
       </main>
-      <Footer position="flex absolute flex-shrink  bottom-[5%] gap-14 ml-10 mt-auto" />
+      <Footer position="flex absolute flex-shrink bottom-[5%] gap-14 ml-10 mt-auto" />
     </>
   );
 };

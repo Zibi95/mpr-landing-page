@@ -1,9 +1,9 @@
 import leftArrow from '../../assets/left.png';
 import rightArrow from '../../assets/right.png';
-
+import page2 from '../../assets/page2.png';
 import telephone from '../../assets/page2-telephone.png';
 
-const PageTwo = () => {
+const PageTwo = ({ prevPage, nextPage }) => {
   return (
     <>
       <main className="flex justify-around mt-24 flex-wrap">
@@ -23,12 +23,25 @@ const PageTwo = () => {
       </main>
 
       <div className=" flex items-center justify-center w-full gap-[50%]   absolute  bottom-[15%]">
-        <button className="hover:-translate-x-7 transition-transform ">
+        <button
+          onClick={prevPage}
+          className="hover:-translate-x-7 transition-transform "
+        >
           <img src={leftArrow} alt="left arrow" />
         </button>
-        <button className="hover:translate-x-7 transition-transform">
-          <img src={rightArrow} alt="left arrow" />
+        <button
+          onClick={nextPage}
+          className="hover:translate-x-7 transition-transform"
+        >
+          <img src={rightArrow} alt="right arrow" />
         </button>
+      </div>
+      <div>
+        <img
+          className=" lg:w-[65%] transition-all absolute bottom-0 -z-10 left-[50%] -translate-x-[50%]"
+          src={page2}
+          alt="planeta"
+        />
       </div>
     </>
   );
