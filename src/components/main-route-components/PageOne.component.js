@@ -3,10 +3,18 @@ import leftArrow from '../../assets/right.png';
 import page1 from '../../assets/page1.png';
 import Footer from '../Footer.component';
 
-const PageOne = ({ nextPage }) => {
+import { motion } from 'framer-motion';
+import { MotionBlur } from 'react-motion-blur';
+const PageOne = ({ nextPage, direction }) => {
+  console.log(direction);
   return (
     <>
-      <main className="flex justify-around mt-24 flex-wrap">
+      <motion.main
+        animate={{ opacity: 1, x: 0 }}
+        initial={{ x: 1000, opacity: 0 }}
+        transition={{ duration: 0.5 }}
+        className="flex justify-around mt-24 flex-wrap"
+      >
         <article className="flex flex-col gap-5 w-[35%] flex-shrink-0">
           <p className="text-white md:text-2xl leading-relaxed ">
             Rozwijaj swoje pasje razem ze mną!
@@ -23,12 +31,16 @@ const PageOne = ({ nextPage }) => {
         <article className="w-[25%] flex-shrink-0">
           <p className="text-white md:text-2xl leading-relaxed "> Hey</p>
         </article>
-      </main>
+      </motion.main>
 
-      <div className=" left-[75%] absolute bottom-[15%]">
+      <motion.div
+        animate={{ opacity: 1 }}
+        initial={{ opacity: 0 }}
+        className=" left-[75%] absolute z-10 bottom-[15%]"
+      >
         <div className="flex items-center gap-10">
           <button
-            onClick={nextPage}
+            onClick={() => nextPage(1)}
             className="hover:translate-x-7 transition-transform"
           >
             <img src={leftArrow} alt="left arrow" />
@@ -37,14 +49,21 @@ const PageOne = ({ nextPage }) => {
             Zobacz co potrafię!
           </p>
         </div>
-      </div>
-      <div>
-        <img
-          className="lg:w-[65%] transition-all absolute bottom-0 -z-10 left-[50%] -translate-x-[50%]"
-          src={page1}
-          alt="planeta"
-        />
-      </div>
+      </motion.div>
+
+      <MotionBlur intensity={10}>
+        <motion.div
+          animate={{ rotate: 0 }}
+          initial={{ rotate: direction === -1 ? 90 : -90, y: 550 }}
+          transition={{ duration: 0.2 }}
+        >
+          <img
+            className="lg:w-[65%] transition-all absolute bottom-0  left-[50%] -translate-x-[50%]"
+            src={page1}
+            alt="planeta"
+          />
+        </motion.div>
+      </MotionBlur>
       <Footer position="flex absolute flex-shrink bottom-[5%] gap-14 ml-10 mt-auto" />
     </>
   );

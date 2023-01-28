@@ -9,8 +9,6 @@ function App() {
     <Routes>
       <Route path="/" element={<Navbar />}>
         <Route index element={<Main />} />
-        <Route path="/1" element={<Main />} />
-        <Route path="/2" element={<Main />} />
         <Route path="/download" element={<DownloadPage />} />
       </Route>
     </Routes>

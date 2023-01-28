@@ -29,7 +29,7 @@ const Background = () => {
             value: '#11073A',
           },
         },
-        fpsLimit: 60,
+        fpsLimit: 120,
 
         particles: {
           twinkle: {
@@ -89,7 +89,7 @@ const Background = () => {
               default: 'out',
             },
             random: true,
-            speed: 0.5,
+            speed: 1,
             straight: false,
           },
         },

@@ -3,6 +3,7 @@ import { Outlet, Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import Background from '../../components/Background.component';
 
+
 const Navbar = () => {
   return (
     <>
@@ -19,7 +20,9 @@ const Navbar = () => {
           </Link>
         </div>
       </nav>
+
       <Background />
+
       <Outlet />
     </>
   );

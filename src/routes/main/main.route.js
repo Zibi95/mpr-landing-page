@@ -5,22 +5,22 @@ import PageTwo from '../../components/main-route-components/PageTwo.component';
 import PageThree from '../../components/main-route-components/PageThree.component';
 
 const Main = () => {
-  const [page, setPage] = useState(0);
+  const [[page, direction], setPage] = useState([0, 0]);
 
-  const prevPage = () => {
-    setPage(prev => (prev -= 1));
+  const prevPage = val => {
+    setPage([page + val, val]);
   };
 
-  const nextPage = () => {
-    setPage(prev => (prev += 1));
+  const nextPage = val => {
+    setPage([page + val, val]);
   };
-  return (
-    <>
-      {(page === 0 && <PageOne nextPage={nextPage} />) ||
-        (page === 1 && <PageTwo nextPage={nextPage} prevPage={prevPage} />) ||
-        (page === 2 && <PageThree prevPage={prevPage} />)}
-    </>
-  );
+
+  const pagesArray = [
+    <PageOne nextPage={nextPage} direction={direction} />,
+    <PageTwo nextPage={nextPage} prevPage={prevPage} direction={direction} />,
+    <PageThree prevPage={prevPage} direction={direction} />,
+  ];
+  return <>{pagesArray[page]}</>;
 };
 
 export default Main;
