@@ -4,7 +4,7 @@ import page1 from '../../assets/page1.png';
 import Footer from '../Footer.component';
 
 import { motion } from 'framer-motion';
-import { MotionBlur } from 'react-motion-blur';
+
 const PageOne = ({ nextPage, direction }) => {
   console.log(direction);
   return (
@@ -51,20 +51,19 @@ const PageOne = ({ nextPage, direction }) => {
         </div>
       </motion.div>
 
-      <MotionBlur intensity={10}>
-        <motion.div
-          animate={{ rotate: 0 }}
-          initial={{ rotate: direction === -1 ? 90 : -90, y: 550 }}
-          transition={{ duration: 0.2 }}
-        >
-          <img
-            className="lg:w-[65%] transition-all absolute bottom-0  left-[50%] -translate-x-[50%]"
-            src={page1}
-            alt="planeta"
-          />
-        </motion.div>
-      </MotionBlur>
-      <Footer position="flex absolute flex-shrink bottom-[5%] gap-14 ml-10 mt-auto" />
+      <motion.div
+        animate={{ rotate: 0 }}
+        initial={{ rotate: direction === -1 ? 90 : -90, y: 550 }}
+        transition={{ duration: 0.2 }}
+      >
+        <img
+          className="lg:w-[65%] transition-all absolute bottom-0  left-[50%] -translate-x-[50%]"
+          src={page1}
+          alt="planeta"
+        />
+      </motion.div>
+
+      <Footer position="flex absolute bottom-[5%] gap-14 ml-10" />
     </>
   );
 };

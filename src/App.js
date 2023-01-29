@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from './routes/nav/navbar.route';
 import Main from './routes/main/main.route';
 import DownloadPage from './routes/download/Download.route';
+import Contact from './routes/contact/Contact.route';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Route path="/" element={<Navbar />}>
         <Route index element={<Main />} />
         <Route path="/download" element={<DownloadPage />} />
+        <Route path="/contact" element={<Contact />} />
       </Route>
     </Routes>
   );

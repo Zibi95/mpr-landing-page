@@ -7597,10 +7597,6 @@ react-is@^18.0.0:
   resolved "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-react-motion-blur@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-motion-blur/-/react-motion-blur-1.0.0.tgz#eb7b230846a67c13ff4ad6d05567640659edd7a0"
-  integrity sha512-pwYEE+QR3/RWbvk9nzKYdpEMhW1Jl/x9DctqGawn9hQRTG0NPCNeBC4+ffDGL7JNC7qWWhw9877S0dFIjReXNw==
 
 react-refresh@^0.11.0:
   version "0.11.0"
