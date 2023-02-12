@@ -3,7 +3,7 @@ const Input = ({ type, name, label, id, rows }) => {
     <div className="relative w-full">
       {rows ? (
         <textarea
-          className="w-full p-1 text-gray-900 placeholder-transparent border-2 rounded-lg focus:outline-none peer focus:border-rose-600"
+          className="w-full p-1 text-gray-900 placeholder-transparent border-2 rounded-lg bg-slate-200 focus:outline-none peer focus:border-[#780E63]"
           rows={rows}
           type={type}
           name={name}
@@ -12,7 +12,7 @@ const Input = ({ type, name, label, id, rows }) => {
         />
       ) : (
         <input
-          className="w-full h-12 p-1 text-gray-900 placeholder-transparent border-2 rounded-lg focus:outline-none peer focus:border-rose-600"
+          className="w-full h-12 p-1 text-gray-900 placeholder-transparent border-2 rounded-lg bg-slate-200 focus:outline-none peer focus:border-[#780E63]"
           type={type}
           name={name}
           placeholder={label}
