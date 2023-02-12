@@ -4,25 +4,28 @@ import planeta from '../assets/planeta.png';
 
 import { motion } from 'framer-motion';
 
-const Main = ({ prevPage, nextPage, direction }) => {
+const PlanetImage = ({ prevPage, nextPage, direction }) => {
   return (
-    <div className="flex justify-center w-full">
+    <div className="flex justify-center w-full]">
       <motion.div
         animate={{ opacity: 1 }}
         initial={{ opacity: 0 }}
         className=" flex items-center justify-center w-full gap-[50%] z-10 absolute bottom-[15%]">
         <button
           onClick={() => prevPage(-1)}
-          className="transition-transform hover:-translate-x-7 ">
+          className={`transition-transform hover:-translate-x-7 ${!prevPage && 'opacity-0 cursor-auto'}`}>
           <img
+            className="w-16 justify-self-center xl:w-20"
             src={leftArrow}
             alt="left arrow"
           />
         </button>
+
         <button
           onClick={() => nextPage(1)}
-          className="transition-transform hover:translate-x-7">
+          className={`transition-transform hover:translate-x-7 ${!nextPage && 'opacity-0 cursor-auto'}`}>
           <img
+            className="w-16 justify-self-center xl:w-20"
             src={rightArrow}
             alt="right arrow"
           />
@@ -30,10 +33,9 @@ const Main = ({ prevPage, nextPage, direction }) => {
       </motion.div>
       <motion.div
         animate={{ rotate: 0 }}
-        initial={{ rotate: direction === -1 ? 90 : -90, y: 100 }}
-        transition={{ duration: 0.2 }}>
+        initial={{ rotate: direction === -1 ? 180 : -180 }}
+        transition={{ duration: 0.5 }}>
         <img
-          className="translate-y-16 sm:-translate-y-10"
           src={planeta}
           alt=""
         />
@@ -42,4 +44,4 @@ const Main = ({ prevPage, nextPage, direction }) => {
   );
 };
 
-export default Main;
+export default PlanetImage;
