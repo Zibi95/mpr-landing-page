@@ -12,13 +12,13 @@ function App() {
     <Suspense>
       <Routes>
         <Route
+          exact
           path="/"
           element={<Navbar />}>
           <Route
             index
             element={<Main />}
           />
-
           <Route
             path="/download"
             element={<DownloadPage />}
