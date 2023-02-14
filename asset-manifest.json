@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/mpr-landing-page/static/css/main.cb45ea62.css",
-    "main.js": "/mpr-landing-page/static/js/main.6b41f522.js",
+    "main.js": "/mpr-landing-page/static/js/main.805a6f60.js",
     "static/js/406.421dd411.chunk.js": "/mpr-landing-page/static/js/406.421dd411.chunk.js",
     "static/js/321.e8322e5e.chunk.js": "/mpr-landing-page/static/js/321.e8322e5e.chunk.js",
+    "static/js/326.4f6e975d.chunk.js": "/mpr-landing-page/static/js/326.4f6e975d.chunk.js",
+    "static/js/869.f414dd22.chunk.js": "/mpr-landing-page/static/js/869.f414dd22.chunk.js",
     "static/js/787.36650b13.chunk.js": "/mpr-landing-page/static/js/787.36650b13.chunk.js",
     "static/media/planeta.png": "/mpr-landing-page/static/media/planeta.cd0993af6654707ad03b.png",
     "static/media/contact-robo.png": "/mpr-landing-page/static/media/contact-robo.4448051733012bcb9176.png",
     "static/media/googlePlay.png": "/mpr-landing-page/static/media/googlePlay.000c21a97f2422af3a64.png",
     "index.html": "/mpr-landing-page/index.html",
     "main.cb45ea62.css.map": "/mpr-landing-page/static/css/main.cb45ea62.css.map",
-    "main.6b41f522.js.map": "/mpr-landing-page/static/js/main.6b41f522.js.map",
+    "main.805a6f60.js.map": "/mpr-landing-page/static/js/main.805a6f60.js.map",
     "406.421dd411.chunk.js.map": "/mpr-landing-page/static/js/406.421dd411.chunk.js.map",
     "321.e8322e5e.chunk.js.map": "/mpr-landing-page/static/js/321.e8322e5e.chunk.js.map",
+    "326.4f6e975d.chunk.js.map": "/mpr-landing-page/static/js/326.4f6e975d.chunk.js.map",
+    "869.f414dd22.chunk.js.map": "/mpr-landing-page/static/js/869.f414dd22.chunk.js.map",
     "787.36650b13.chunk.js.map": "/mpr-landing-page/static/js/787.36650b13.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb45ea62.css",
-    "static/js/main.6b41f522.js"
+    "static/js/main.805a6f60.js"
   ]
 }
