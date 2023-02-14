@@ -1,7 +1,7 @@
 import googlePlay from '../../assets/googlePlay.png';
 import PlanetImage from '../PlanetImage.component';
 import Footer from '../Footer.component';
-import Lottie from 'lottie-react';
+// import Lottie from 'lottie-react';
 import { motion } from 'framer-motion';
 
 const PageOne = ({ nextPage, direction }) => {
