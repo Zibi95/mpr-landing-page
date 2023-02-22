@@ -9,6 +9,7 @@ body {
   height: 100%;
   display: relative;
   background-color: #11073a;
+  overflow: hidden;
 }
 
 .facebook:hover {

@@ -1,7 +1,6 @@
 import telephone from '../../assets/page2-telephone.png';
 import PlanetImage from '../PlanetImage.component';
 import robot1 from '../../assets/machanie.gif';
-import { motion } from 'framer-motion';
 import AppInfo from '../AppInfo.component';
 
 const PageThree = ({ prevPage }) => {

@@ -4,9 +4,9 @@ import Input from '../../components/Input.component';
 const Contact = () => {
   return (
     <>
-      <div className=" mx-auto md:w-[50%] xl:w-[35%] w-[70%]">
+      <div className=" mx-auto md:w-[50%] xl:w-[35%]  w-[70%]">
         <header className="text-xl font-bold text-center uppercase text-slate-200 ">Formularz kontaktowy</header>
-        <form className="flex flex-col items-center w-full gap-8 mt-5 leading-relaxed ">
+        <form className="flex flex-col items-center w-full gap-5 mt-3 leading-relaxed ">
           <Input
             type="email"
             name="email"
@@ -36,7 +36,7 @@ const Contact = () => {
         src={robot}
         alt="robot"
       />
-      <Footer position="flex absolute bottom-[5%] w-[65%] gap-14 ml-24 justify-center" />
+      <Footer position="flex flex-col absolute bottom-[5%] right-2 gap-3 sm:gap-14  sm:flex-row  justify-center" />
     </>
   );
 };

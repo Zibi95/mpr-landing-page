@@ -29,12 +29,10 @@ const Background = () => {
 
   return (
     <>
-      <div>...</div>
       <ParticlesBg
         bg={{
           position: 'absolute',
           zIndex: -10,
-          width: 'full',
         }}
         type="custom"
         config={config}

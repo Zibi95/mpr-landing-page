@@ -29,7 +29,7 @@ const PageOne = ({ nextPage, direction }) => {
           </a>
           ;
         </article>
-        <article className="w-[25%] flex-shrink-0">
+        <article className="w-[25%]  flex-shrink-0">
           <p className="leading-relaxed text-white md:text-2xl "> Hey</p>
         </article>
       </motion.main>
@@ -40,7 +40,7 @@ const PageOne = ({ nextPage, direction }) => {
         robot={robot1}
       />
 
-      <Footer position="flex absolute bottom-[5%] gap-14 ml-10" />
+      <Footer position="flex flex-col absolute bottom-[5%] gap-3 sm:gap-14 sm:flex-row ml-2" />
     </>
   );
 };
