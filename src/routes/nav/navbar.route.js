@@ -12,7 +12,7 @@ const Navbar = () => {
             alt="logo"
           />
         </Link>
-        <div className="flex text-lg font-semibold text-white gap-7 ">
+        <div className="flex text-xs font-semibold text-white md:text-xl gap-7 ">
           <Link
             to={'download'}
             className="cursor-pointer hover:underline">

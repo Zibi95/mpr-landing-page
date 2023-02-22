@@ -19,8 +19,8 @@ const DownloadPage = () => {
 
   return (
     <>
-      <main className="flex flex-col gap-16 sca ">
-        <h2 className="mx-auto text-center text-white font-extrabold  xl:w-[75%] text-3xl lg:text-5xl w-full leading-normal ">
+      <main className="flex flex-col gap-3 sca ">
+        <h2 className="mx-auto text-center text-white font-extrabold  xl:w-[75%] text-xl lg:text-5xl w-full leading-normal ">
           ZAWSZE JEST ODPOWIEDNI MOMENT, ABY ROZPOCZĄĆ WŁASNY ROZWÓJ. ROZPOCZNIJ JUŻ DZIŚ!
         </h2>
         <button
@@ -31,7 +31,7 @@ const DownloadPage = () => {
             alt="donwload button"
           />
         </button>
-        <div className={`absolute -z-10 -bottom-[20%] right-[10%] ${rocketAnimation} `}>
+        <div className={`absolute -z-10 -bottom-[20%] sm:right-[10%] -right-[55%] ${rocketAnimation} `}>
           <img
             src={rakieta}
             alt="rakieta robota"

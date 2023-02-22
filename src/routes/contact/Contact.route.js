@@ -4,9 +4,9 @@ import Input from '../../components/Input.component';
 const Contact = () => {
   return (
     <>
-      <div className=" mx-auto mt-24 md:w-[50%] xl:w-[35%] w-[70%]">
-        <header className="text-2xl font-bold text-center uppercase text-slate-200 ">Formularz kontaktowy</header>
-        <form className="flex flex-col items-center w-full gap-8 mt-10 leading-relaxed ">
+      <div className=" mx-auto md:w-[50%] xl:w-[35%] w-[70%]">
+        <header className="text-xl font-bold text-center uppercase text-slate-200 ">Formularz kontaktowy</header>
+        <form className="flex flex-col items-center w-full gap-8 mt-5 leading-relaxed ">
           <Input
             type="email"
             name="email"
@@ -24,7 +24,7 @@ const Contact = () => {
             name="content"
             id="content"
             label="Treść"
-            rows={10}
+            rows={3}
           />
           <button className="w-40 p-3 text-xl font-semibold bg-[#2DABC8] rounded-lg hover:bg-[#780E63] hover:scale-110 transition-all text-[white]">
             Wyślij

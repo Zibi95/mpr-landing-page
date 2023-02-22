@@ -4,7 +4,7 @@ import planeta from '../assets/planeta.png';
 
 import { motion } from 'framer-motion';
 
-const PlanetImage = ({ prevPage, nextPage, direction }) => {
+const PlanetImage = ({ prevPage, nextPage, direction, robot }) => {
   return (
     <div className="flex justify-center w-full]">
       <motion.div
@@ -32,9 +32,15 @@ const PlanetImage = ({ prevPage, nextPage, direction }) => {
         </button>
       </motion.div>
       <motion.div
+        className="relative -z-10"
         animate={{ rotate: 0 }}
         initial={{ rotate: direction === -1 ? 180 : -180 }}
         transition={{ duration: 0.5 }}>
+        <img
+          className="cursor-none absolute left-[50%] translate-x-[-50%] -top-48"
+          src={robot}
+          alt="waving robo-friend"
+        />
         <img
           src={planeta}
           alt=""
