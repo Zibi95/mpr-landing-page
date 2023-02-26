@@ -37,7 +37,7 @@ const PlanetImage = ({ prevPage, nextPage, direction, robot }) => {
         initial={{ rotate: direction === -1 ? 180 : -180 }}
         transition={{ duration: 0.5 }}>
         <img
-          className="cursor-none absolute left-[50%] translate-x-[-50%] -top-48"
+          className="cursor-none absolute left-[50%] translate-x-[-50%] -top-48 w-54 "
           src={robot}
           alt="waving robo-friend"
         />

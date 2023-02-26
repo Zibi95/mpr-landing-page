@@ -1,6 +1,6 @@
 import telephone from '../../assets/page2-telephone.png';
 import PlanetImage from '../PlanetImage.component';
-import robot1 from '../../assets/machanie.gif';
+import robot2 from '../../assets/francua-robo.gif';
 import AppInfo from '../AppInfo.component';
 
 const PageTwo = ({ prevPage, nextPage, direction }) => {
@@ -16,7 +16,7 @@ const PageTwo = ({ prevPage, nextPage, direction }) => {
       />
 
       <PlanetImage
-        robot={robot1}
+        robot={robot2}
         prevPage={prevPage}
         nextPage={nextPage}
         direction={direction}

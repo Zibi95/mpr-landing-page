@@ -28,7 +28,7 @@ const Background = () => {
   };
 
   return (
-    <>
+    <div className="overflow-hidden">
       <ParticlesBg
         bg={{
           position: 'absolute',
@@ -37,7 +37,7 @@ const Background = () => {
         type="custom"
         config={config}
       />
-    </>
+    </div>
   );
 };
 
