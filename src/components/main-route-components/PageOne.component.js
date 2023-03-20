@@ -17,9 +17,9 @@ const PageOne = ({ nextPage, direction }) => {
         transition={{ duration: 0.5 }}
         className="flex flex-wrap justify-around mt-18  h-[55vh] mb-16">
         <article className="flex flex-col gap-5 w-[40%] flex-shrink-0">
-          <h1 className="text-xl font-bold leading-relaxed text-white md:text-4xl">Rozwijaj swoje pasje razem ze mną!</h1>
+          <h1 className="text-xl text-center font-bold leading-relaxed text-white md:text-4xl">Rozwijaj swoje pasje razem ze mną!</h1>
           <a
-            className="hover:-translate-y-2 hover:shadow-2xl  mt-10 max-w-[500px] transition-transform duration-300 delay-300 "
+            className="hover:-translate-y-2 hover:shadow-2xl mt-10 transition-transform mx-auto duration-300 delay-300 "
             target="_blank"
             rel="noreferrer"
             href="https://play.google.com/store/apps/details?id=pl.mojprzyjacielrobot.mojprzyjacielrobot">
