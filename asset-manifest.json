@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mpr-landing-page/static/css/main.eb15b025.css",
-    "main.js": "/mpr-landing-page/static/js/main.ac8f821f.js",
+    "main.css": "/mpr-landing-page/static/css/main.73f9e0a2.css",
+    "main.js": "/mpr-landing-page/static/js/main.5254f4ab.js",
     "static/js/406.a11bcf31.chunk.js": "/mpr-landing-page/static/js/406.a11bcf31.chunk.js",
     "static/js/321.d3dba389.chunk.js": "/mpr-landing-page/static/js/321.d3dba389.chunk.js",
     "static/js/213.72645dca.chunk.js": "/mpr-landing-page/static/js/213.72645dca.chunk.js",
@@ -16,8 +16,8 @@
     "static/media/contact-robo.png": "/mpr-landing-page/static/media/contact-robo.4448051733012bcb9176.png",
     "static/media/googlePlay.png": "/mpr-landing-page/static/media/googlePlay.000c21a97f2422af3a64.png",
     "index.html": "/mpr-landing-page/index.html",
-    "main.eb15b025.css.map": "/mpr-landing-page/static/css/main.eb15b025.css.map",
-    "main.ac8f821f.js.map": "/mpr-landing-page/static/js/main.ac8f821f.js.map",
+    "main.73f9e0a2.css.map": "/mpr-landing-page/static/css/main.73f9e0a2.css.map",
+    "main.5254f4ab.js.map": "/mpr-landing-page/static/js/main.5254f4ab.js.map",
     "406.a11bcf31.chunk.js.map": "/mpr-landing-page/static/js/406.a11bcf31.chunk.js.map",
     "321.d3dba389.chunk.js.map": "/mpr-landing-page/static/js/321.d3dba389.chunk.js.map",
     "213.72645dca.chunk.js.map": "/mpr-landing-page/static/js/213.72645dca.chunk.js.map",
@@ -25,7 +25,7 @@
     "787.36650b13.chunk.js.map": "/mpr-landing-page/static/js/787.36650b13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb15b025.css",
-    "static/js/main.ac8f821f.js"
+    "static/css/main.73f9e0a2.css",
+    "static/js/main.5254f4ab.js"
   ]
 }
