@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/mpr-landing-page/static/css/main.f2addc96.css",
-    "main.js": "/mpr-landing-page/static/js/main.62103a78.js",
+    "main.css": "/mpr-landing-page/static/css/main.63618308.css",
+    "main.js": "/mpr-landing-page/static/js/main.c35c7a3f.js",
     "static/js/406.a11bcf31.chunk.js": "/mpr-landing-page/static/js/406.a11bcf31.chunk.js",
     "static/js/321.d3dba389.chunk.js": "/mpr-landing-page/static/js/321.d3dba389.chunk.js",
-    "static/js/182.18cd3982.chunk.js": "/mpr-landing-page/static/js/182.18cd3982.chunk.js",
-    "static/js/869.5bed3309.chunk.js": "/mpr-landing-page/static/js/869.5bed3309.chunk.js",
+    "static/js/213.72645dca.chunk.js": "/mpr-landing-page/static/js/213.72645dca.chunk.js",
+    "static/js/297.39fa19f3.chunk.js": "/mpr-landing-page/static/js/297.39fa19f3.chunk.js",
     "static/js/787.36650b13.chunk.js": "/mpr-landing-page/static/js/787.36650b13.chunk.js",
+    "static/media/phone_page_two.gif": "/mpr-landing-page/static/media/phone_page_two.567d0e941f8475043ab3.gif",
     "static/media/francua-robo.gif": "/mpr-landing-page/static/media/francua-robo.bef74f60659f4e9a76cb.gif",
     "static/media/machanie.gif": "/mpr-landing-page/static/media/machanie.1d4c5301d4d614575b61.gif",
     "static/media/planeta.png": "/mpr-landing-page/static/media/planeta.cd0993af6654707ad03b.png",
     "static/media/contact-robo.png": "/mpr-landing-page/static/media/contact-robo.4448051733012bcb9176.png",
     "static/media/googlePlay.png": "/mpr-landing-page/static/media/googlePlay.000c21a97f2422af3a64.png",
     "index.html": "/mpr-landing-page/index.html",
-    "main.f2addc96.css.map": "/mpr-landing-page/static/css/main.f2addc96.css.map",
-    "main.62103a78.js.map": "/mpr-landing-page/static/js/main.62103a78.js.map",
+    "main.63618308.css.map": "/mpr-landing-page/static/css/main.63618308.css.map",
+    "main.c35c7a3f.js.map": "/mpr-landing-page/static/js/main.c35c7a3f.js.map",
     "406.a11bcf31.chunk.js.map": "/mpr-landing-page/static/js/406.a11bcf31.chunk.js.map",
     "321.d3dba389.chunk.js.map": "/mpr-landing-page/static/js/321.d3dba389.chunk.js.map",
-    "182.18cd3982.chunk.js.map": "/mpr-landing-page/static/js/182.18cd3982.chunk.js.map",
-    "869.5bed3309.chunk.js.map": "/mpr-landing-page/static/js/869.5bed3309.chunk.js.map",
+    "213.72645dca.chunk.js.map": "/mpr-landing-page/static/js/213.72645dca.chunk.js.map",
+    "297.39fa19f3.chunk.js.map": "/mpr-landing-page/static/js/297.39fa19f3.chunk.js.map",
     "787.36650b13.chunk.js.map": "/mpr-landing-page/static/js/787.36650b13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2addc96.css",
-    "static/js/main.62103a78.js"
+    "static/css/main.63618308.css",
+    "static/js/main.c35c7a3f.js"
   ]
 }
