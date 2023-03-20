@@ -7,7 +7,6 @@ import PlanetImage from '../PlanetImage.component';
 import Footer from '../Footer.component';
 
 const PageOne = ({ nextPage, direction }) => {
-  console.log(direction);
   return (
     <>
       <motion.main
@@ -21,15 +20,14 @@ const PageOne = ({ nextPage, direction }) => {
             className="hover:-translate-y-2 hover:shadow-2xl  mt-10 max-w-[500px] transition-transform duration-300 delay-300 "
             target="_blank"
             rel="noreferrer"
-            href="https://play.google.com/store/games?hl=pl&gl=US&pli=1">
+            href="https://play.google.com/store/apps/details?id=pl.mojprzyjacielrobot.mojprzyjacielrobot">
             <img
               src={googlePlay}
               alt="donwload button"
             />
           </a>
-          ;
         </article>
-        <article className="w-[25%]  flex-shrink-0">
+        <article className="w-[25%] flex-shrink-0">
           <p className="leading-relaxed text-white md:text-2xl "> Hey</p>
         </article>
       </motion.main>
@@ -40,7 +38,7 @@ const PageOne = ({ nextPage, direction }) => {
         robot={robot1}
       />
 
-      <Footer position="flex flex-col absolute bottom-[5%] gap-3 sm:gap-14 sm:flex-row ml-2" />
+      <Footer position="flex flex-col z-10 absolute bottom-[5%] gap-3 sm:gap-14 sm:flex-row ml-2" />
     </>
   );
 };

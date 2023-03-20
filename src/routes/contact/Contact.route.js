@@ -5,8 +5,8 @@ const Contact = () => {
   return (
     <>
       <div className=" mx-auto md:w-[50%] xl:w-[35%]  w-[70%]">
-        <header className="text-xl font-bold text-center uppercase text-slate-200 ">Formularz kontaktowy</header>
-        <form className="flex flex-col items-center w-full gap-5 mt-3 leading-relaxed ">
+        <header className="text-xl font-bold text-center uppercase text-slate-200 mb-10 ">Formularz kontaktowy</header>
+        <form method='POST' action='https://formsubmit.co/kontakt@mojprzyjacielrobot.pl' className="flex flex-col items-center w-full gap-6 leading-relaxed">
           <Input
             type="email"
             name="email"
@@ -15,18 +15,30 @@ const Contact = () => {
           />
           <Input
             type="text"
-            name="subject"
-            id="subject"
-            label="Temat"
+            name="title"
+            id="title"
+            label="Tytuł wydarzenia"
           />
           <Input
             type="text"
-            name="content"
-            id="content"
-            label="Treść"
-            rows={3}
+            name="city"
+            id="city"
+            label="Miasto, w którym odbywać się będzie wydarzenie"
           />
-          <button className="w-40 p-3 text-xl font-semibold bg-[#2DABC8] rounded-lg hover:bg-[#780E63] hover:scale-110 transition-all text-[white]">
+          <Input
+            type="text"
+            name="image"
+            id="image"
+            label="Zdjęcie promujące wydarzenie"
+          />
+          <Input
+            type="text"
+            name="description"
+            id="description"
+            label="Opis wydarzenia..."
+            rows={4}
+          />
+          <button className="w-40 p-3 text-xl font-semibold bg-[#2DABC8] rounded-lg hover:bg-[#780E63] hover:scale-110 transition-all text-white">
             Wyślij
           </button>
         </form>

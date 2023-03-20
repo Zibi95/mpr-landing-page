@@ -10,10 +10,10 @@ const PlanetImage = ({ prevPage, nextPage, direction, robot }) => {
       <motion.div
         animate={{ opacity: 1 }}
         initial={{ opacity: 0 }}
-        className=" flex items-center justify-center w-full gap-[50%] z-10 absolute bottom-[15%]">
+        className="flex items-center justify-center w-full gap-[50%] z-10 absolute bottom-[15%]">
         <button
           onClick={() => prevPage(-1)}
-          className={`transition-transform hover:-translate-x-7 ${!prevPage && 'opacity-0 cursor-auto'}`}>
+          className={`transition-transform hover:-translate-x-7  ${!prevPage && 'opacity-0 cursor-auto'}`}>
           <img
             className="w-16 justify-self-center xl:w-20"
             src={leftArrow}

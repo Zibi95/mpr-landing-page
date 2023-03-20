@@ -10,6 +10,7 @@ body {
   display: relative;
   background-color: #11073a;
   overflow: hidden;
+  min-width: 323px;
 }
 
 .facebook:hover {

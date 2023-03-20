@@ -12,7 +12,7 @@ const DownloadPage = () => {
   const handleClick = () => {
     setRocketAnimation('animate-rocketLaunch');
     setTimeout(() => {
-      window.open('https://play.google.com/store/games?hl=pl&gl=US&pli=1', '_blank');
+      window.open('https://play.google.com/store/apps/details?id=pl.mojprzyjacielrobot.mojprzyjacielrobot', '_blank');
       setRocketAnimation('');
     }, 2000);
   };
