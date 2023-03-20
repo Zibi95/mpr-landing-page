@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 //Images
 import googlePlay from '../../assets/googlePlay.png';
 import robot1 from '../../assets/machanie.gif';
+import video from '../../assets/promo.mp4'
+import poster from '../../assets/splash.png'
 // Components
 import PlanetImage from '../PlanetImage.component';
 import Footer from '../Footer.component';
@@ -27,8 +29,11 @@ const PageOne = ({ nextPage, direction }) => {
             />
           </a>
         </article>
-        <article className="w-[25%] flex-shrink-0">
-          <p className="leading-relaxed text-white md:text-2xl "> Hey</p>
+        <article className=" flex-shrink-0 hidden lg:block">
+          <video controls poster={poster} width={500}>
+            <source src={video}/>
+
+          </video>
         </article>
       </motion.main>
 

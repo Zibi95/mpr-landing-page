@@ -1,4 +1,4 @@
-import telephone from '../../assets/page2-telephone.png';
+import telephone from '../../assets/phone_page_two.gif';
 import PlanetImage from '../PlanetImage.component';
 import robot2 from '../../assets/francua-robo.gif';
 import AppInfo from '../AppInfo.component';

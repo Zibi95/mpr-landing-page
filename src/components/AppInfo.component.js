@@ -13,6 +13,7 @@ const AppInfo = ({ title, description, image, direction = 1 }) => {
       </article>
       <article className="w-[25%] flex-shrink-0">
         <img
+          className='opacity-80'
           src={image}
           alt="telephone"
         />
