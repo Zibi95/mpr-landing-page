@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/mpr-landing-page/static/css/main.9f17a19d.css",
-    "main.js": "/mpr-landing-page/static/js/main.a5a6e089.js",
-    "static/js/406.b290244e.chunk.js": "/mpr-landing-page/static/js/406.b290244e.chunk.js",
-    "static/js/321.fdbae778.chunk.js": "/mpr-landing-page/static/js/321.fdbae778.chunk.js",
+    "main.css": "/mpr-landing-page/static/css/main.cdde81ed.css",
+    "main.js": "/mpr-landing-page/static/js/main.566f5310.js",
+    "static/js/406.a11bcf31.chunk.js": "/mpr-landing-page/static/js/406.a11bcf31.chunk.js",
+    "static/js/321.f000dd0e.chunk.js": "/mpr-landing-page/static/js/321.f000dd0e.chunk.js",
     "static/js/182.18cd3982.chunk.js": "/mpr-landing-page/static/js/182.18cd3982.chunk.js",
     "static/js/869.5bed3309.chunk.js": "/mpr-landing-page/static/js/869.5bed3309.chunk.js",
     "static/js/787.36650b13.chunk.js": "/mpr-landing-page/static/js/787.36650b13.chunk.js",
@@ -13,16 +13,16 @@
     "static/media/contact-robo.png": "/mpr-landing-page/static/media/contact-robo.4448051733012bcb9176.png",
     "static/media/googlePlay.png": "/mpr-landing-page/static/media/googlePlay.000c21a97f2422af3a64.png",
     "index.html": "/mpr-landing-page/index.html",
-    "main.9f17a19d.css.map": "/mpr-landing-page/static/css/main.9f17a19d.css.map",
-    "main.a5a6e089.js.map": "/mpr-landing-page/static/js/main.a5a6e089.js.map",
-    "406.b290244e.chunk.js.map": "/mpr-landing-page/static/js/406.b290244e.chunk.js.map",
-    "321.fdbae778.chunk.js.map": "/mpr-landing-page/static/js/321.fdbae778.chunk.js.map",
+    "main.cdde81ed.css.map": "/mpr-landing-page/static/css/main.cdde81ed.css.map",
+    "main.566f5310.js.map": "/mpr-landing-page/static/js/main.566f5310.js.map",
+    "406.a11bcf31.chunk.js.map": "/mpr-landing-page/static/js/406.a11bcf31.chunk.js.map",
+    "321.f000dd0e.chunk.js.map": "/mpr-landing-page/static/js/321.f000dd0e.chunk.js.map",
     "182.18cd3982.chunk.js.map": "/mpr-landing-page/static/js/182.18cd3982.chunk.js.map",
     "869.5bed3309.chunk.js.map": "/mpr-landing-page/static/js/869.5bed3309.chunk.js.map",
     "787.36650b13.chunk.js.map": "/mpr-landing-page/static/js/787.36650b13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f17a19d.css",
-    "static/js/main.a5a6e089.js"
+    "static/css/main.cdde81ed.css",
+    "static/js/main.566f5310.js"
   ]
 }
